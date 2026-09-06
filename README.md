@@ -19,7 +19,7 @@ The included `vercel.json` and package metadata configure:
 | Output directory | `dist` |
 | Environment variables | None required |
 
-All playable assets are committed under `public/assets/1k/` and copied into the build automatically. No asset download script, Python setup, Git LFS, external asset hosting or backend is needed for deployment. Open the deployed URL directly in a desktop browser, then click **Enter Meridian** to enable mouse control and audio.
+All playable assets are committed under `public/assets/1k/` and copied into the build automatically. The build checks their presence and integrity before compiling. Keep `.vercelignore` paths anchored to the repository root: `/assets/` excludes only the source library; an unanchored `assets/` also excludes the playable assets. No asset download script, Python setup, Git LFS, external asset hosting or backend is needed for deployment. Open the deployed URL directly in a desktop browser, then click **Enter Meridian** to enable mouse control and audio.
 
 ## Run locally
 
