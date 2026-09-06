@@ -1,0 +1,22 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+.runtime/
+
+# Local source libraries; the complete playable payload is in public/assets/1k/.
+/concrete/
+/generator/
+/assets/library/1k/*
+!/assets/library/1k/manifest.json
+
+# Local settings, credentials and generated caches.
+.vercel/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+Thumbs.db

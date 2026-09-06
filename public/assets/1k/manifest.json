@@ -1,0 +1,1423 @@
+{
+  "processing": "JPEG quality 88 color / 95 data, full chroma for normal and ARM maps; only keep smaller output. Dimensions unchanged. Originals preserved outside public.",
+  "bytes": 22394669,
+  "assets": [
+    {
+      "id": "plastered_wall_04",
+      "kind": "material",
+      "name": "Plastered Wall 04",
+      "purpose": "Subtle aged plaster in secondary galleries",
+      "source": "https://polyhaven.com/a/plastered_wall_04",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "authors": {
+        "Rob Tuytel": "All"
+      },
+      "resolution": "1k",
+      "source_polycount": null,
+      "source_dimensions_mm": [
+        3199.9998092651367,
+        3199.9998092651367
+      ],
+      "files": [
+        {
+          "path": "materials/plastered_wall_04/plastered_wall_04_diff_1k.jpg",
+          "role": "albedo",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/plastered_wall_04/plastered_wall_04_diff_1k.jpg",
+          "bytes": 36160,
+          "md5": "5d77ea506c0f84ed3e9786b29151d2b2",
+          "sha256": "b4a4f4bfbe080daea8268359a78b7a79f60a1099b0f8d84bb307f5ea00cd32e7",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 299230,
+          "source_md5": "3a45e9e3ff0c6aa179371dff02bded1f",
+          "source_sha256": "52d789111bbe93d311c22e49d28b56256593c8f84c75742642403da857a36503"
+        },
+        {
+          "path": "materials/plastered_wall_04/plastered_wall_04_nor_gl_1k.jpg",
+          "role": "normal_gl",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/plastered_wall_04/plastered_wall_04_nor_gl_1k.jpg",
+          "bytes": 191943,
+          "md5": "43c5588e953b010327895884a44a35ec",
+          "sha256": "2b135e8e83317a655b7ee630dd0061e37a6a8b4011a4156e87a4d7c74bcc6207",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 427268,
+          "source_md5": "f18e649235bb688732fb0ef1d61a5286",
+          "source_sha256": "c0a41dc06e33072ec1156d89f3bd4b481a479616791d4e9df6c5ee7b3283db82"
+        },
+        {
+          "path": "materials/plastered_wall_04/plastered_wall_04_arm_1k.jpg",
+          "role": "ao_roughness_metalness",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/plastered_wall_04/plastered_wall_04_arm_1k.jpg",
+          "bytes": 91797,
+          "md5": "8bb987fae4f7836865a6b34ebed8e88f",
+          "sha256": "8ee51b8dad0e8c03d4c6a44ae213e22a5fb74bdfe2588ea42692aabbde624a8e",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 212525,
+          "source_md5": "4d3c55b7cbb32cce818af5b2a1f18ffa",
+          "source_sha256": "9ffc6cc7b58f95972361ac887df92fdf3e6d86b96ecadcac17cbc2676cb8617d"
+        }
+      ],
+      "channel_mapping": {
+        "arm": {
+          "R": "ambientOcclusion",
+          "G": "roughness",
+          "B": "metalness"
+        }
+      },
+      "color_space": {
+        "albedo": "sRGB",
+        "normal_gl": "linear data",
+        "ao_roughness_metalness": "linear data"
+      },
+      "bytes": 319900,
+      "source_bytes": 939023
+    },
+    {
+      "id": "dirty_carpet",
+      "kind": "material",
+      "name": "Dirty Carpet",
+      "purpose": "Arcade carpet; tint to the scene palette",
+      "source": "https://polyhaven.com/a/dirty_carpet",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "authors": {
+        "Rohit Seervi": "All"
+      },
+      "resolution": "1k",
+      "source_polycount": null,
+      "source_dimensions_mm": [
+        599.9999046325684,
+        599.9999046325684
+      ],
+      "files": [
+        {
+          "path": "materials/dirty_carpet/dirty_carpet_diff_1k.jpg",
+          "role": "albedo",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/dirty_carpet/dirty_carpet_diff_1k.jpg",
+          "bytes": 385500,
+          "md5": "164e29bf2aa6ccab5c1b3220aff1c279",
+          "sha256": "8be1a8b9e81abaf03b057327aa1bac3fbeb358615d8bec8894a4c89b930a536c",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 978020,
+          "source_md5": "97c0a4b94e5660c117cc511b240aa3b3",
+          "source_sha256": "b0ef2b248cb7dfa1d33f1b2215fb3b83e815527d4091a2c3a423bdcd63bef60a"
+        },
+        {
+          "path": "materials/dirty_carpet/dirty_carpet_nor_gl_1k.jpg",
+          "role": "normal_gl",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/dirty_carpet/dirty_carpet_nor_gl_1k.jpg",
+          "bytes": 768856,
+          "md5": "1c8cefdcb647217069f8dfe903628d58",
+          "sha256": "3d4c12061d89082627863fbf9564e3302e29b139ef4024487cce59a24da224f5",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 1089297,
+          "source_md5": "f6835454628831b0d8feceba6202e7a1",
+          "source_sha256": "ba96f6f098ac64456f4cc310469200ff702596a9070d2553f990da8f7b86d29f"
+        },
+        {
+          "path": "materials/dirty_carpet/dirty_carpet_arm_1k.jpg",
+          "role": "ao_roughness_metalness",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/dirty_carpet/dirty_carpet_arm_1k.jpg",
+          "bytes": 771767,
+          "md5": "506f41beae545d7a4b6ed3e73994741c",
+          "sha256": "2915fb0eb1f0f4eeb9e8a46c81afe3b449d1103e3b1175bffce4ab2f910197de",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 1054681,
+          "source_md5": "fbe1d0c316caca13fccb36a92b5a0f75",
+          "source_sha256": "c7d89d591dcc3691d28cec7eddb3a75126a1e0a49e9808b521c7c33450f9e50e"
+        }
+      ],
+      "channel_mapping": {
+        "arm": {
+          "R": "ambientOcclusion",
+          "G": "roughness",
+          "B": "metalness"
+        }
+      },
+      "color_space": {
+        "albedo": "sRGB",
+        "normal_gl": "linear data",
+        "ao_roughness_metalness": "linear data"
+      },
+      "bytes": 1926123,
+      "source_bytes": 3121998
+    },
+    {
+      "id": "metal_plate_02",
+      "kind": "material",
+      "name": "Metal Plate 02",
+      "purpose": "Aged steel in service areas; not polished handrail metal",
+      "source": "https://polyhaven.com/a/metal_plate_02",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "authors": {
+        "Rob Tuytel": "All"
+      },
+      "resolution": "1k",
+      "source_polycount": null,
+      "source_dimensions_mm": [
+        2000,
+        2000
+      ],
+      "files": [
+        {
+          "path": "materials/metal_plate_02/metal_plate_02_diff_1k.jpg",
+          "role": "albedo",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/metal_plate_02/metal_plate_02_diff_1k.jpg",
+          "bytes": 180209,
+          "md5": "cb62a8ef88360d46f50565eb3fd1cd28",
+          "sha256": "5ee3a2bf7c764d64dffdd1a0d8ca94d01e7a0cc91ee80c4b63fca68212d46a42",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 625917,
+          "source_md5": "531b7e067dc537e0b3c7962175e04ffd",
+          "source_sha256": "6e80877d0e9d5973d96298c6091df7ace906b0a6760afc4f3592e4855f3f1d4c"
+        },
+        {
+          "path": "materials/metal_plate_02/metal_plate_02_nor_gl_1k.jpg",
+          "role": "normal_gl",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/metal_plate_02/metal_plate_02_nor_gl_1k.jpg",
+          "bytes": 127158,
+          "md5": "be37d372c6f077d4a39724407422a799",
+          "sha256": "7d06d389918b5ed29c006e1c061754851c34ece309d8114d147c34e77952037c",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 183264,
+          "source_md5": "ce8198004fd9409f592a7f024be0c01e",
+          "source_sha256": "58736fbb8aa4fc6690cf8152b174db65caf22a766375b625fb0087e1bc955bc7"
+        },
+        {
+          "path": "materials/metal_plate_02/metal_plate_02_arm_1k.jpg",
+          "role": "ao_roughness_metalness",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/metal_plate_02/metal_plate_02_arm_1k.jpg",
+          "bytes": 757472,
+          "md5": "719edee135b67a8eb3f9d40ae80f213d",
+          "sha256": "fb81705b6989f929c88af1bbc33fa5c96f0f9b59712b8bcf55f2e3e864a4a409",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 1075839,
+          "source_md5": "ff6e0499763d76c76b1568b16f5f93f6",
+          "source_sha256": "e099a8385d53f4a515b7e0ce94f85d88657fcac49c23979474f5394b22dd550b"
+        }
+      ],
+      "channel_mapping": {
+        "arm": {
+          "R": "ambientOcclusion",
+          "G": "roughness",
+          "B": "metalness"
+        }
+      },
+      "color_space": {
+        "albedo": "sRGB",
+        "normal_gl": "linear data",
+        "ao_roughness_metalness": "linear data"
+      },
+      "bytes": 1064839,
+      "source_bytes": 1885020
+    },
+    {
+      "id": "denim_fabric_06",
+      "kind": "material",
+      "name": "Denim Fabric 06",
+      "purpose": "Fine dark fabric weave for the photo-booth curtain; tint during integration",
+      "source": "https://polyhaven.com/a/denim_fabric_06",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "authors": {
+        "Greg Zaal": "Photography",
+        "Rico Cilliers": "Processing"
+      },
+      "resolution": "1k",
+      "source_polycount": null,
+      "source_dimensions_mm": [
+        254.15802731412134,
+        254.0000081062317
+      ],
+      "files": [
+        {
+          "path": "materials/denim_fabric_06/denim_fabric_06_diff_1k.jpg",
+          "role": "albedo",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/denim_fabric_06/denim_fabric_06_diff_1k.jpg",
+          "bytes": 272927,
+          "md5": "000a1a98636936d15785e0860b49cf37",
+          "sha256": "7c3b75f0493cb95e7b72e362f4a1528a74f22e26ccab5c96eac5c2b50a2bc5c4",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 821758,
+          "source_md5": "0441b69c4ebb2bcf1c0c1fb179c2c1cc",
+          "source_sha256": "9da7f6672e71a87135d5b4b6bdf4471ee9d250f88ae78ce51f36cd0a6ed5d78d"
+        },
+        {
+          "path": "materials/denim_fabric_06/denim_fabric_06_nor_gl_1k.jpg",
+          "role": "normal_gl",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/denim_fabric_06/denim_fabric_06_nor_gl_1k.jpg",
+          "bytes": 933370,
+          "md5": "faf3c430fc7300aaff292fa5d6e1431e",
+          "sha256": "dcf91888e11519c6da2c165c026c217c9924dbdb3318c3cdfba1d0ab22f9a389",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 1240070,
+          "source_md5": "93f7e9233d923c3b021de6367cc9c4f0",
+          "source_sha256": "f94bbaa53003762c96624cabebb1a3fd334780c8c96548e9c14990f1e6920df2"
+        },
+        {
+          "path": "materials/denim_fabric_06/denim_fabric_06_arm_1k.jpg",
+          "role": "ao_roughness_metalness",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/denim_fabric_06/denim_fabric_06_arm_1k.jpg",
+          "bytes": 683876,
+          "md5": "e942bf4d435582a0376501271f853bdb",
+          "sha256": "d808140bb375b678785c1cb9c7ad827fcc7302894c0783159734064ddb05a940",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 966013,
+          "source_md5": "f2c48eda8d83f0c9b1c3d51931c5591c",
+          "source_sha256": "2e2c13b58629d9e6a84c9fa3b3d08ebeb279978856489bb92e8f9693f827060d"
+        }
+      ],
+      "channel_mapping": {
+        "arm": {
+          "R": "ambientOcclusion",
+          "G": "roughness",
+          "B": "metalness"
+        }
+      },
+      "color_space": {
+        "albedo": "sRGB",
+        "normal_gl": "linear data",
+        "ao_roughness_metalness": "linear data"
+      },
+      "bytes": 1890173,
+      "source_bytes": 3027841
+    },
+    {
+      "id": "portable_generator",
+      "kind": "model",
+      "name": "Portable Generator",
+      "purpose": "Service alcove; keep switched off indoors",
+      "source": "https://polyhaven.com/a/portable_generator",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "authors": {
+        "James Ray Cock": "All"
+      },
+      "resolution": "1k",
+      "source_polycount": 26419,
+      "source_dimensions_mm": [
+        818.3408081531525,
+        564.0000104904175,
+        576.9232391612604
+      ],
+      "files": [
+        {
+          "path": "models/portable_generator/portable_generator_1k.gltf",
+          "role": "gltf",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/portable_generator/portable_generator_1k.gltf",
+          "bytes": 10130,
+          "md5": "13c2380487daae6726443b9f38dd7e53",
+          "sha256": "d5afe27834f824dfe753391713c45be03479e8100831f320796030531f61b848",
+          "source_bytes": 10130,
+          "source_md5": "13c2380487daae6726443b9f38dd7e53",
+          "source_sha256": "d5afe27834f824dfe753391713c45be03479e8100831f320796030531f61b848"
+        },
+        {
+          "path": "models/portable_generator/textures/portable_generator_spec_1k.jpg",
+          "role": "texture",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/portable_generator/portable_generator_spec_1k.jpg",
+          "bytes": 20144,
+          "md5": "180fa80135c53cf2cada5c83d5e53b2d",
+          "sha256": "51c6027a6bff664c803c95fced0e278339daee1b625594f8d5bb328a67cfd350",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 23119,
+          "source_md5": "b3044dbc984897ed902bd47a450f742f",
+          "source_sha256": "acf30e81c367898eb846f353d77e404f6831ac23bf071e0e718fddb8881b86cb"
+        },
+        {
+          "path": "models/portable_generator/textures/portable_generator_nor_gl_1k.jpg",
+          "role": "texture",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/portable_generator/portable_generator_nor_gl_1k.jpg",
+          "bytes": 555900,
+          "md5": "d2650f9b737ec6305d852c61a88f7366",
+          "sha256": "94327438dc1f9f3b08d34113e404c629bf9d4c3fa1140fd11a7d870d71a8332b",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 818829,
+          "source_md5": "89a51a982488c21eddec2c6e02249591",
+          "source_sha256": "8a868edab1a2f5ffa50b2b1680c2c342491b3eeeac443734178c445c7286c25d"
+        },
+        {
+          "path": "models/portable_generator/textures/portable_generator_diff_1k.jpg",
+          "role": "texture",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/portable_generator/portable_generator_diff_1k.jpg",
+          "bytes": 251366,
+          "md5": "136eee8261ba2f3179246acafcf86bc5",
+          "sha256": "65747cf52abdd4ffdf7e4726c681f2af378f6741d2715cf7424fec06f836fe52",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 755079,
+          "source_md5": "3d572e1716148ca5d641d8a199fe9192",
+          "source_sha256": "32acc300105a2df2290d872889b24e1b29ff1ca2c56c0a0cf8fbba0c5966a063"
+        },
+        {
+          "path": "models/portable_generator/textures/portable_generator_arm_1k.jpg",
+          "role": "texture",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/portable_generator/portable_generator_arm_1k.jpg",
+          "bytes": 619945,
+          "md5": "c89f8b73fe600783d14c2edc09a07d72",
+          "sha256": "5c6500571cbf5e0ebfb06422d11ed3c42094ae160ffe3ae97230b1b9e1b3302d",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 887711,
+          "source_md5": "7dbb8b9f0aa4e9d3ce6ad37e0326299f",
+          "source_sha256": "10236e967baddd90ec7d4ab68969b06fb419f98782a2796db94edc0249b0dad2"
+        },
+        {
+          "path": "models/portable_generator/portable_generator.bin",
+          "role": "buffer",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/portable_generator/portable_generator.bin",
+          "bytes": 939572,
+          "md5": "81b2f4c4c6d0b0d7388ae9aa1123563a",
+          "sha256": "fb7dcfedec1331ad541569e4ca8d4157284b2164084b7fe5a97928d4abc0ea2d",
+          "source_bytes": 939572,
+          "source_md5": "81b2f4c4c6d0b0d7388ae9aa1123563a",
+          "source_sha256": "fb7dcfedec1331ad541569e4ca8d4157284b2164084b7fe5a97928d4abc0ea2d"
+        }
+      ],
+      "entry": "models/portable_generator/portable_generator_1k.gltf",
+      "bytes": 2397057,
+      "gltf_triangles": 26419,
+      "gltf_meshes": 4,
+      "source_bytes": 3434440
+    },
+    {
+      "id": "rollershutter_window_01",
+      "kind": "model",
+      "name": "Rollershutter Window 01",
+      "purpose": "Wide closed storefront shutter; use clean material variant",
+      "source": "https://polyhaven.com/a/rollershutter_window_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "authors": {
+        "MP": "All"
+      },
+      "resolution": "1k",
+      "source_polycount": 1104,
+      "source_dimensions_mm": [
+        5100.001215934753,
+        300.0859081512317,
+        1850.7245529547163
+      ],
+      "files": [
+        {
+          "path": "models/rollershutter_window_01/rollershutter_window_01_1k.gltf",
+          "role": "gltf",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/rollershutter_window_01/rollershutter_window_01_1k.gltf",
+          "bytes": 4991,
+          "md5": "5228a7253b40de720ad8247757d218f1",
+          "sha256": "fc80494f223d65c4c62ff3b163f8e51dd8d4d769ae1ad183383c0b6139495f42",
+          "source_bytes": 4991,
+          "source_md5": "5228a7253b40de720ad8247757d218f1",
+          "source_sha256": "fc80494f223d65c4c62ff3b163f8e51dd8d4d769ae1ad183383c0b6139495f42"
+        },
+        {
+          "path": "models/rollershutter_window_01/textures/rollershutter_window_01_arm_1k.jpg",
+          "role": "texture",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/rollershutter_window_01/rollershutter_window_01_arm_1k.jpg",
+          "bytes": 391688,
+          "md5": "b24726027b3414fcca6132e9950305f4",
+          "sha256": "e3b3238bfd06416ace9045a19df1e328d633443006d85e3352fbd18144a64a79",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 592481,
+          "source_md5": "4ab04fd28873a76e2d84e47147eae6b0",
+          "source_sha256": "2b13244dbcfa52dde2475bc6a5b088789ec96600e980d2048504a16cc302844b"
+        },
+        {
+          "path": "models/rollershutter_window_01/rollershutter_window_01.bin",
+          "role": "buffer",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/rollershutter_window_01/rollershutter_window_01.bin",
+          "bytes": 54432,
+          "md5": "54837c166c34e1a1ca7f6495a82ab6d9",
+          "sha256": "a866c874c77c0f7600cd79b0af502d5f6333257e6ee86a2f00c4752ef50e2fbb",
+          "source_bytes": 54432,
+          "source_md5": "54837c166c34e1a1ca7f6495a82ab6d9",
+          "source_sha256": "a866c874c77c0f7600cd79b0af502d5f6333257e6ee86a2f00c4752ef50e2fbb"
+        },
+        {
+          "path": "models/rollershutter_window_01/textures/rollershutter_window_01_graffiti_diff_1k.jpg",
+          "role": "texture",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/rollershutter_window_01/rollershutter_window_01_graffiti_diff_1k.jpg",
+          "bytes": 231522,
+          "md5": "def54579094bc8af6a5292f10778ce14",
+          "sha256": "95b9f8d3703bdd4f654fd93b8d5affd37d2e9b6168c30c15d39c8c05e6d58dd0",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 660597,
+          "source_md5": "10d15a7029c107af920b8f758e96a384",
+          "source_sha256": "6e8abb45823ad3eb125df82e5d3468151a703aee90a4a812ff34d7e9c32fcb8d"
+        },
+        {
+          "path": "models/rollershutter_window_01/textures/rollershutter_window_01_nor_gl_1k.jpg",
+          "role": "texture",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/rollershutter_window_01/rollershutter_window_01_nor_gl_1k.jpg",
+          "bytes": 247429,
+          "md5": "5225bb9ace487e26e5efe399d6c792ef",
+          "sha256": "5dadad87c723f3756519e5962d60be5e1b830b3ba4216e94d47ab2dbdfb185c8",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 360410,
+          "source_md5": "ce48690b51f8e17ab3567878158055f1",
+          "source_sha256": "3acc1e7a93e2dcc8b64fac3a8d6342e4af7ca67b2823178460418a535812ebeb"
+        },
+        {
+          "path": "models/rollershutter_window_01/textures/rollershutter_window_01_diff_1k.jpg",
+          "role": "texture",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/rollershutter_window_01/rollershutter_window_01_diff_1k.jpg",
+          "bytes": 183380,
+          "md5": "9c6b98960533db11bde9923dd0690edf",
+          "sha256": "8f353f6368d3992c5e413e6e8b53342790ab706db000ab6955180cd7382b24aa",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 563314,
+          "source_md5": "0800d21822ec7199c825caafda90427a",
+          "source_sha256": "485d89e887227324c40479a7f759d733cfa4206493f3bbe2170e8dfbc69ae1dd"
+        }
+      ],
+      "entry": "models/rollershutter_window_01/rollershutter_window_01_1k.gltf",
+      "bytes": 1113442,
+      "gltf_triangles": 1104,
+      "gltf_meshes": 2,
+      "source_bytes": 2236225
+    },
+    {
+      "id": "mounted_fluorescent_lights",
+      "kind": "model",
+      "name": "Mounted Fluorescent Lights",
+      "purpose": "Detailed fluorescent fixture kit",
+      "source": "https://polyhaven.com/a/mounted_fluorescent_lights",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "authors": {
+        "Ulan Cabanilla": "All"
+      },
+      "resolution": "1k",
+      "source_polycount": 17820,
+      "source_dimensions_mm": [
+        912.1809005737305,
+        645.4365849494934,
+        35.35318718786584
+      ],
+      "files": [
+        {
+          "path": "models/mounted_fluorescent_lights/mounted_fluorescent_lights_1k.gltf",
+          "role": "gltf",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/mounted_fluorescent_lights/mounted_fluorescent_lights_1k.gltf",
+          "bytes": 21071,
+          "md5": "88af3c716ac36b280c60579f4b015119",
+          "sha256": "7a56f167fe7074f4e4d4f314f72c5aa8b01c191394ee5ecb0b3461a240441b4a",
+          "source_bytes": 21071,
+          "source_md5": "88af3c716ac36b280c60579f4b015119",
+          "source_sha256": "7a56f167fe7074f4e4d4f314f72c5aa8b01c191394ee5ecb0b3461a240441b4a"
+        },
+        {
+          "path": "models/mounted_fluorescent_lights/textures/mounted_fluorescent_lights_nor_gl_1k.jpg",
+          "role": "texture",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/mounted_fluorescent_lights/mounted_fluorescent_lights_nor_gl_1k.jpg",
+          "bytes": 213497,
+          "md5": "2317faab79d5036a674729b1624a4d9f",
+          "sha256": "8d65380660c433f1112b2bba68715797005ce7d25bd5e4c591823ea44efcceef",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 265082,
+          "source_md5": "927b3339a11442dfc1bc4d21384fcf14",
+          "source_sha256": "104cb175cb07cbf036ed5ef69213188663d4927c2a3e48dd12683effe0752093"
+        },
+        {
+          "path": "models/mounted_fluorescent_lights/textures/mounted_fluorescent_lights_diff_1k.jpg",
+          "role": "texture",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/mounted_fluorescent_lights/mounted_fluorescent_lights_diff_1k.jpg",
+          "bytes": 71256,
+          "md5": "ce9959b0a3e9aa26b0d2c030dc265d6c",
+          "sha256": "ebb483a2cd7e451b3eb2c6f24873be0b7a18055ec69976571d151272ff1ded78",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 311521,
+          "source_md5": "8ce6bcb2b15119a3621cb7c9e7af2359",
+          "source_sha256": "5b40d4da2a453b891de236023ddc79d49a8c4bc8ecd020c8cce7f124b25c094d"
+        },
+        {
+          "path": "models/mounted_fluorescent_lights/textures/mounted_fluorescent_lights_arm_1k.jpg",
+          "role": "texture",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/mounted_fluorescent_lights/mounted_fluorescent_lights_arm_1k.jpg",
+          "bytes": 370047,
+          "md5": "dcbf191b7e9d3411a9f18a38fab6ce29",
+          "sha256": "4a45872a32ae0d79fa15f0fe8a06f787212476c390fdb18a76a8b012a1d6617e",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 611314,
+          "source_md5": "10a7df63b3f8f50882c188721fc732c3",
+          "source_sha256": "a2c226c14fc9222027dcdf7855825de9422630c2a422d63cf032ca697c1e66a5"
+        },
+        {
+          "path": "models/mounted_fluorescent_lights/textures/mounted_fluorescent_lights_emission_1k.jpg",
+          "role": "texture",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/mounted_fluorescent_lights/mounted_fluorescent_lights_emission_1k.jpg",
+          "bytes": 32853,
+          "md5": "c8232c62e226336b4f131e957cdacc61",
+          "sha256": "507975d0fe29b5413e30dfa097205df13692ef85196177ed156db31ab0cf2d4c",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 69103,
+          "source_md5": "17d7b5feb138bcc8b8e8b064d26c6836",
+          "source_sha256": "0758065e076bd5f0b3cb6b460644feac893b4a8d9903794f354fd18e9c41c1bc"
+        },
+        {
+          "path": "models/mounted_fluorescent_lights/mounted_fluorescent_lights.bin",
+          "role": "buffer",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/mounted_fluorescent_lights/mounted_fluorescent_lights.bin",
+          "bytes": 551720,
+          "md5": "8b7c24b1af686525c973f0c9d72440d6",
+          "sha256": "587851c1b4e09e4cf3438f3d8bb084d4591f6be3a7bb1b4324b84af97b3c5f03",
+          "source_bytes": 551720,
+          "source_md5": "8b7c24b1af686525c973f0c9d72440d6",
+          "source_sha256": "587851c1b4e09e4cf3438f3d8bb084d4591f6be3a7bb1b4324b84af97b3c5f03"
+        }
+      ],
+      "entry": "models/mounted_fluorescent_lights/mounted_fluorescent_lights_1k.gltf",
+      "bytes": 1260444,
+      "gltf_triangles": 17820,
+      "gltf_meshes": 7,
+      "source_bytes": 1829811
+    },
+    {
+      "id": "plastic_monobloc_chair_01",
+      "kind": "model",
+      "name": "Plastic Monobloc Chair 01",
+      "purpose": "The one remaining food-court chair",
+      "source": "https://polyhaven.com/a/plastic_monobloc_chair_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "authors": {
+        "Kuutti Siitonen": "All"
+      },
+      "resolution": "1k",
+      "source_polycount": 3356,
+      "source_dimensions_mm": [
+        641.8611407279968,
+        627.5919079780579,
+        879.8411972820759
+      ],
+      "files": [
+        {
+          "path": "models/plastic_monobloc_chair_01/plastic_monobloc_chair_01_1k.gltf",
+          "role": "gltf",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/plastic_monobloc_chair_01/plastic_monobloc_chair_01_1k.gltf",
+          "bytes": 2892,
+          "md5": "b0ac94e52b406e1815af47d9d84eadb4",
+          "sha256": "899bf148139ab8d1718c25ec06112a652631f9476b5aaeeacb9eb1da9b7f1d3a",
+          "source_bytes": 2892,
+          "source_md5": "b0ac94e52b406e1815af47d9d84eadb4",
+          "source_sha256": "899bf148139ab8d1718c25ec06112a652631f9476b5aaeeacb9eb1da9b7f1d3a"
+        },
+        {
+          "path": "models/plastic_monobloc_chair_01/plastic_monobloc_chair_01.bin",
+          "role": "buffer",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/plastic_monobloc_chair_01/plastic_monobloc_chair_01.bin",
+          "bytes": 124808,
+          "md5": "cff97136a9c4bb57c62937cbb7d33a79",
+          "sha256": "db5c778488d01d7e7d3409e2cda53ee8f6dd523a327c080000d549dd0f83b375",
+          "source_bytes": 124808,
+          "source_md5": "cff97136a9c4bb57c62937cbb7d33a79",
+          "source_sha256": "db5c778488d01d7e7d3409e2cda53ee8f6dd523a327c080000d549dd0f83b375"
+        },
+        {
+          "path": "models/plastic_monobloc_chair_01/textures/plastic_monobloc_chair_01_arm_1k.jpg",
+          "role": "texture",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/plastic_monobloc_chair_01/plastic_monobloc_chair_01_arm_1k.jpg",
+          "bytes": 428539,
+          "md5": "500f6d37b862635928f9b19b5785dc20",
+          "sha256": "223ca7695d1f63783bd45e15d3e9ed219f3f5ca291f15ba201e3cc51f10bf6a1",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 634320,
+          "source_md5": "ce9271797fd8893a6c84f639f952d0b9",
+          "source_sha256": "78a67659a19a9df9efc0ef71789de0c949a727db62ade4c4c8887cd2c803c1a2"
+        },
+        {
+          "path": "models/plastic_monobloc_chair_01/textures/plastic_monobloc_chair_01_diff_1k.jpg",
+          "role": "texture",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/plastic_monobloc_chair_01/plastic_monobloc_chair_01_diff_1k.jpg",
+          "bytes": 185911,
+          "md5": "082609f741ded2a6bcb4f2126d54aef8",
+          "sha256": "e20ba035716a961183fe7dbcd7d72b947f11b1e14dea6de7b3efa504b7622f00",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 560823,
+          "source_md5": "c36dfe0f38d6ca1632ba426c598e6764",
+          "source_sha256": "fdd1255a02bf684cfcff2eae75c0e3eea0db1fb5ecbfbd8c4f9beab8fd83ff6c"
+        },
+        {
+          "path": "models/plastic_monobloc_chair_01/textures/plastic_monobloc_chair_01_nor_gl_1k.jpg",
+          "role": "texture",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/plastic_monobloc_chair_01/plastic_monobloc_chair_01_nor_gl_1k.jpg",
+          "bytes": 411150,
+          "md5": "0ab1d8c2c57de2e338abb7a46028e505",
+          "sha256": "5f24d4130b9fc9f21504e34a39f0c132d658476b315fbc517d628ded41543420",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 630024,
+          "source_md5": "387f81f09c0754416298398277fb2a6d",
+          "source_sha256": "9ffa876b37d72ae1c0aed84d4dc1f62c956c844b3efec1f786f9080c10f63c9e"
+        }
+      ],
+      "entry": "models/plastic_monobloc_chair_01/plastic_monobloc_chair_01_1k.gltf",
+      "bytes": 1153300,
+      "gltf_triangles": 3356,
+      "gltf_meshes": 1,
+      "source_bytes": 1952867
+    },
+    {
+      "id": "modular_street_seating",
+      "kind": "model",
+      "name": "Modular Street Seating",
+      "purpose": "Wood-and-metal bench modules for gallery seating",
+      "source": "https://polyhaven.com/a/modular_street_seating",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "authors": {
+        "Stuart Attenborrow": "All"
+      },
+      "resolution": "1k",
+      "source_polycount": 25156,
+      "source_dimensions_mm": [
+        4339.9999141693115,
+        770.3700959682465,
+        950.000050743509
+      ],
+      "files": [
+        {
+          "path": "models/modular_street_seating/modular_street_seating_1k.gltf",
+          "role": "gltf",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/modular_street_seating/modular_street_seating_1k.gltf",
+          "bytes": 29629,
+          "md5": "350ccab60ac6ed46009c6bd578cf212f",
+          "sha256": "ae0c5b89927446dd3c3dc8fc021c5a6042448b785f340affaa132307d8a7b18d",
+          "source_bytes": 29629,
+          "source_md5": "350ccab60ac6ed46009c6bd578cf212f",
+          "source_sha256": "ae0c5b89927446dd3c3dc8fc021c5a6042448b785f340affaa132307d8a7b18d"
+        },
+        {
+          "path": "models/modular_street_seating/textures/modular_street_seating_supports_diff_1k.jpg",
+          "role": "texture",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_street_seating/modular_street_seating_supports_diff_1k.jpg",
+          "bytes": 248042,
+          "md5": "ec7fba393ed9289db56d9c263eaa55a2",
+          "sha256": "ebe14cbea8265e75819980778d1406747ded07a14721a7495313c19a2be3e1ee",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 721380,
+          "source_md5": "f8f3ce0a8510267bb320523b147e8bc5",
+          "source_sha256": "3d2dc8a4ac499b540445be6277a1fa7c84fb7cdbf0fbe04d9738d806393393e4"
+        },
+        {
+          "path": "models/modular_street_seating/textures/modular_street_seating_armrests_nor_gl_1k.jpg",
+          "role": "texture",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_street_seating/modular_street_seating_armrests_nor_gl_1k.jpg",
+          "bytes": 203765,
+          "md5": "d71401d1993d282a4336f05ea275d3d5",
+          "sha256": "c4b7bc9d620bfd4812aad0a1efcbd18a2740dcd13a75b67c0de869c558dd308d",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 324073,
+          "source_md5": "3161b56f328b98f1cc3a3748bdcdd57a",
+          "source_sha256": "1625c7492bfdc6fb97a49a09e5f958bfc62d46b7fc97bdcda97ba83fc13f18c4"
+        },
+        {
+          "path": "models/modular_street_seating/textures/modular_street_seating_timber_arm_1k.jpg",
+          "role": "texture",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_street_seating/modular_street_seating_timber_arm_1k.jpg",
+          "bytes": 469271,
+          "md5": "4deafaf6a2d4c64cd327eb5c4bfd2099",
+          "sha256": "62a0760b010f95c1b97e5ae99afcda42f95e6e7e794a819a34fa7d6ed3c8a54b",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 762344,
+          "source_md5": "ed6858f805affc2d5387043c7de0b9f3",
+          "source_sha256": "07b108f3c6ee8afe56c9c23592d48f80344992bd0512080a1cc2bf37e7c7cb84"
+        },
+        {
+          "path": "models/modular_street_seating/textures/modular_street_seating_supports_nor_gl_1k.jpg",
+          "role": "texture",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_street_seating/modular_street_seating_supports_nor_gl_1k.jpg",
+          "bytes": 310308,
+          "md5": "f7cc59f8a3e752d21595eccaf84a361c",
+          "sha256": "7e182273922e71682602673eb0871bca9d78127c7b311b06b3ab47d1d346a646",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 477177,
+          "source_md5": "eb422efce89e6d40608ce8e9a8c7d42a",
+          "source_sha256": "5396d42fc24e0bf0e038767dc0548c4562b359930a9f8ade61897d18192ec929"
+        },
+        {
+          "path": "models/modular_street_seating/textures/modular_street_seating_timber_diff_1k.jpg",
+          "role": "texture",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_street_seating/modular_street_seating_timber_diff_1k.jpg",
+          "bytes": 158911,
+          "md5": "599e350e6429948e0602cbdc1dafa8ea",
+          "sha256": "423540ea79662cc666972ad6962fb12cc86364ab9975e26553b2517cb358c005",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 596026,
+          "source_md5": "ef96054b965201bcf45a5fe1a137d853",
+          "source_sha256": "2dce35474445e91743ec1e5a1ffbc405cdd3b7ec94be945d93d684e23e127be3"
+        },
+        {
+          "path": "models/modular_street_seating/textures/modular_street_seating_connectors_nor_gl_1k.jpg",
+          "role": "texture",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_street_seating/modular_street_seating_connectors_nor_gl_1k.jpg",
+          "bytes": 198636,
+          "md5": "082890eb81ee224d9718d681b9272967",
+          "sha256": "03a4edb6cc9144822fc1d714ddb6fbf206457518d741705ce5dc5490bf1ee3c2",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 398150,
+          "source_md5": "4489712b8404eb94a0ef2a8536f8571f",
+          "source_sha256": "1debc33dce0a35acee944281a712b90ce3ba0a1914e0d30201dc45e4639ecd28"
+        },
+        {
+          "path": "models/modular_street_seating/textures/modular_street_seating_armrests_diff_1k.jpg",
+          "role": "texture",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_street_seating/modular_street_seating_armrests_diff_1k.jpg",
+          "bytes": 201921,
+          "md5": "c3808c0a3bea21ea08d2b0f434bf9bae",
+          "sha256": "1bb315f39b815a3bfe18b0844c462728f792f1dc2d61fec177555be35dafa88f",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 612860,
+          "source_md5": "a1fa7086f8fadb9fc2861962505ee05d",
+          "source_sha256": "1df79fcf237bcca5dcbd6af8e283e775125e723d2782dee3184550564905990f"
+        },
+        {
+          "path": "models/modular_street_seating/textures/modular_street_seating_supports_arm_1k.jpg",
+          "role": "texture",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_street_seating/modular_street_seating_supports_arm_1k.jpg",
+          "bytes": 481332,
+          "md5": "e48c0757326cff318a69fc75ead33e97",
+          "sha256": "c8a798a2962639f93688a2ef28a40912afe72cd7ab8aba547e510ed3616eb169",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 734095,
+          "source_md5": "2464500fdfcde0319bffc0a8d46647cf",
+          "source_sha256": "8dbdaf063699c6d81319a9f0ac2fa5997236981fa703103fdadb008570df8de2"
+        },
+        {
+          "path": "models/modular_street_seating/textures/modular_street_seating_connectors_diff_1k.jpg",
+          "role": "texture",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_street_seating/modular_street_seating_connectors_diff_1k.jpg",
+          "bytes": 39100,
+          "md5": "2aaf06d4875316f5d51859d5f2ce76c9",
+          "sha256": "728302913c62c19065c68e15815016521cae92a36564c9a4b4b6b452a780f253",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 212785,
+          "source_md5": "f6718698d2c27333dd568db4a42798ff",
+          "source_sha256": "0b869d0b8d85d89e79fdb74794a45532b64b32221272c3777089730ca9097003"
+        },
+        {
+          "path": "models/modular_street_seating/textures/modular_street_seating_armrests_arm_1k.jpg",
+          "role": "texture",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_street_seating/modular_street_seating_armrests_arm_1k.jpg",
+          "bytes": 385600,
+          "md5": "5c769b2da724122c351c61317b07a93b",
+          "sha256": "a8ef06a9b98ade9309e2356dd8875214ee4f67b2a89949ec170d763df11bf52a",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 622643,
+          "source_md5": "df3dbc4ed5ef4fb98970e331a18805b5",
+          "source_sha256": "0016585de0b1d3accd9b204f912e76e03385901410e02e5c8dd3186333ff882f"
+        },
+        {
+          "path": "models/modular_street_seating/textures/modular_street_seating_timber_nor_gl_1k.jpg",
+          "role": "texture",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_street_seating/modular_street_seating_timber_nor_gl_1k.jpg",
+          "bytes": 354288,
+          "md5": "06dc6ab7a538f65845047dbb5f258e9c",
+          "sha256": "bc41e4984b73475f421f52ce9f4e3b8f6d18f4dff9e70aeaf9250ecb97f69bde",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 557669,
+          "source_md5": "0d0b133fb0a1b66dad5501f2a861e19d",
+          "source_sha256": "b7d0fff50ca56f12a3ebc3056c0c8104be84efce118a38094608d8e15af27d9a"
+        },
+        {
+          "path": "models/modular_street_seating/textures/modular_street_seating_connectors_arm_1k.jpg",
+          "role": "texture",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_street_seating/modular_street_seating_connectors_arm_1k.jpg",
+          "bytes": 374857,
+          "md5": "b3ee1d19c3151f26a270f8dcd02c3a0e",
+          "sha256": "df9df6ead313cc9972625d5425e4002847c4e8fcbe099cd3b316931664be63fa",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 591917,
+          "source_md5": "0d5bb2990258ddcb5f12e758b242c1da",
+          "source_sha256": "30af91ae8f610ce5ffc15289005b1e6eaf7e904048ad7cd129dcd6e68163512c"
+        },
+        {
+          "path": "models/modular_street_seating/modular_street_seating.bin",
+          "role": "buffer",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/modular_street_seating/modular_street_seating.bin",
+          "bytes": 977224,
+          "md5": "5c0426b5068d5d41f0a301035ecac9ab",
+          "sha256": "968558aa808b6cf74783b375d32a346a4de2ce9c118c0f17fba24c6999f03547",
+          "source_bytes": 977224,
+          "source_md5": "5c0426b5068d5d41f0a301035ecac9ab",
+          "source_sha256": "968558aa808b6cf74783b375d32a346a4de2ce9c118c0f17fba24c6999f03547"
+        }
+      ],
+      "entry": "models/modular_street_seating/modular_street_seating_1k.gltf",
+      "bytes": 4432884,
+      "gltf_triangles": 25156,
+      "gltf_meshes": 16,
+      "source_bytes": 7617972
+    },
+    {
+      "id": "cardboard_box_01",
+      "kind": "model",
+      "name": "Cardboard Box 01",
+      "purpose": "Sparse abandoned packaging",
+      "source": "https://polyhaven.com/a/cardboard_box_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "authors": {
+        "Rahul Chaudhary": "All"
+      },
+      "resolution": "1k",
+      "source_polycount": 16952,
+      "source_dimensions_mm": [
+        387.02359795570374,
+        515.8704221248627,
+        341.7995423078537
+      ],
+      "files": [
+        {
+          "path": "models/cardboard_box_01/cardboard_box_01_1k.gltf",
+          "role": "gltf",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/cardboard_box_01/cardboard_box_01_1k.gltf",
+          "bytes": 2903,
+          "md5": "84572b118cc3640acdd9e978869bb3ee",
+          "sha256": "6038bcc5bba5a08a5f6643a265977e37e3d14553e62981e144c33a89f10b78e1",
+          "source_bytes": 2903,
+          "source_md5": "84572b118cc3640acdd9e978869bb3ee",
+          "source_sha256": "6038bcc5bba5a08a5f6643a265977e37e3d14553e62981e144c33a89f10b78e1"
+        },
+        {
+          "path": "models/cardboard_box_01/textures/cardboard_box_01_arm_1k.jpg",
+          "role": "texture",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/cardboard_box_01/cardboard_box_01_arm_1k.jpg",
+          "bytes": 253756,
+          "md5": "677af0b3794b049b0f2120935fbd1fa8",
+          "sha256": "7cd1b118b92ac368390606937e9d83bac3733b306238937a6382edc4c9e0a823",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 398433,
+          "source_md5": "39ea452f95d71ec1362e47dff453c706",
+          "source_sha256": "5db63828d0f904c6a8d9c83afc912260b2a27261c15a28d06360519384574d2b"
+        },
+        {
+          "path": "models/cardboard_box_01/cardboard_box_01.bin",
+          "role": "buffer",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/cardboard_box_01/cardboard_box_01.bin",
+          "bytes": 381936,
+          "md5": "64bea3a77434981017b8a06da4ccb0df",
+          "sha256": "7212d43b4cb56459e46d31ab34dc7c310fcfbe170f4a588416dea07ae5628a4b",
+          "source_bytes": 381936,
+          "source_md5": "64bea3a77434981017b8a06da4ccb0df",
+          "source_sha256": "7212d43b4cb56459e46d31ab34dc7c310fcfbe170f4a588416dea07ae5628a4b"
+        },
+        {
+          "path": "models/cardboard_box_01/textures/cardboard_box_01_diff_1k.jpg",
+          "role": "texture",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/cardboard_box_01/cardboard_box_01_diff_1k.jpg",
+          "bytes": 165820,
+          "md5": "89c5893c390a26323f4d422abd2731d4",
+          "sha256": "c0ed88fc52e451b44100c259e83d05815b5176390571b0f38d05707dc15d1e59",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 567741,
+          "source_md5": "a306e586325d1759ba3225d2b6ad5121",
+          "source_sha256": "122c7ba8c5935e289804a730b480677a4bffdf74a45c91970cba682df92e171c"
+        },
+        {
+          "path": "models/cardboard_box_01/textures/cardboard_box_01_nor_gl_1k.jpg",
+          "role": "texture",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/cardboard_box_01/cardboard_box_01_nor_gl_1k.jpg",
+          "bytes": 566104,
+          "md5": "3540edfa99b73fc76bbd9ad929d3935f",
+          "sha256": "eef040b81a4cb36ec731d3b930cc923f06cc810b07fe637a429e42b6b9a15dcc",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 817424,
+          "source_md5": "24768abd73f71cfdd7f5be92b18634a7",
+          "source_sha256": "d2d1f529a851966b65411b5094510dd9eba03cd5c0a89921f79325c377a8e8eb"
+        }
+      ],
+      "entry": "models/cardboard_box_01/cardboard_box_01_1k.gltf",
+      "bytes": 1370519,
+      "gltf_triangles": 16952,
+      "gltf_meshes": 1,
+      "source_bytes": 2168437
+    },
+    {
+      "id": "trashbag",
+      "kind": "model",
+      "name": "Trashbag",
+      "purpose": "One service-area refuse bag",
+      "source": "https://polyhaven.com/a/trashbag",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "authors": {
+        "Benny Weimer": "All"
+      },
+      "resolution": "1k",
+      "source_polycount": 4482,
+      "source_dimensions_mm": [
+        528.0700623989105,
+        462.893009185791,
+        574.9993845820427
+      ],
+      "files": [
+        {
+          "path": "models/trashbag/trashbag_1k.gltf",
+          "role": "gltf",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/trashbag/trashbag_1k.gltf",
+          "bytes": 2738,
+          "md5": "c29158e170beeeb6bb518fe8d4407fe5",
+          "sha256": "22202e1ec48d924577584dce6751d5ab198fd7c0aee44602e9a7317b5b60a4a7",
+          "source_bytes": 2738,
+          "source_md5": "c29158e170beeeb6bb518fe8d4407fe5",
+          "source_sha256": "22202e1ec48d924577584dce6751d5ab198fd7c0aee44602e9a7317b5b60a4a7"
+        },
+        {
+          "path": "models/trashbag/textures/trashbag_nor_gl_1k.jpg",
+          "role": "texture",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/trashbag/trashbag_nor_gl_1k.jpg",
+          "bytes": 410861,
+          "md5": "9b28f8e58e9fee4b8364a5597ca58903",
+          "sha256": "e2418770f336b96966a4e7122a912ea15826c5ab81ec2d0ebbf78d3bc9558dad",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 573449,
+          "source_md5": "e576356779a07ac478126012544ab7b7",
+          "source_sha256": "33ddb9711bb3ab2ff1ed19fa361a4251909643fada7e5579a28f6346a58b4daf"
+        },
+        {
+          "path": "models/trashbag/textures/trashbag_diff_1k.jpg",
+          "role": "texture",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/trashbag/trashbag_diff_1k.jpg",
+          "bytes": 98797,
+          "md5": "041123b9a5987510b24099a8abad7b53",
+          "sha256": "36af98b8bbec8f799bc114e4e0dae454e05a12377fefe2bf91ec7cc7b108864e",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 332301,
+          "source_md5": "255360a490bf3838f55e7f21c7ab57ab",
+          "source_sha256": "676e01cbeef39b51c9ecd67315c952a605c8db9c11544fbe11e14dcbd00be27f"
+        },
+        {
+          "path": "models/trashbag/textures/trashbag_arm_1k.jpg",
+          "role": "texture",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/trashbag/trashbag_arm_1k.jpg",
+          "bytes": 477127,
+          "md5": "798ca24d85d0acdecc499fdd873a2091",
+          "sha256": "4be9d88d70f1c7abe8cdef06863a160ee6b9e34bcae58a5a00438045f8045994",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 684660,
+          "source_md5": "1efc021580dd12ef73a27b5d974056aa",
+          "source_sha256": "95e69ba47bc7b84f342cdbe4385cfab670295827740fb09407b967ea2114c0aa"
+        },
+        {
+          "path": "models/trashbag/trashbag.bin",
+          "role": "buffer",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/trashbag/trashbag.bin",
+          "bytes": 106316,
+          "md5": "ad6ebbf5b9aa0179feeea87a4bd289a3",
+          "sha256": "7bfac5b9c39a058af347944b437f712718ec129ec883c16339179862cc155fe2",
+          "source_bytes": 106316,
+          "source_md5": "ad6ebbf5b9aa0179feeea87a4bd289a3",
+          "source_sha256": "7bfac5b9c39a058af347944b437f712718ec129ec883c16339179862cc155fe2"
+        }
+      ],
+      "entry": "models/trashbag/trashbag_1k.gltf",
+      "bytes": 1095839,
+      "gltf_triangles": 4482,
+      "gltf_meshes": 1,
+      "source_bytes": 1699464
+    },
+    {
+      "id": "subway_entrance",
+      "kind": "hdri",
+      "name": "Subway Entrance",
+      "purpose": "Indoor fluorescent lighting reference and reflections",
+      "source": "https://polyhaven.com/a/subway_entrance",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "authors": {},
+      "resolution": "1k",
+      "source_polycount": null,
+      "source_dimensions_mm": null,
+      "files": [
+        {
+          "path": "hdris/subway_entrance/subway_entrance_1k.hdr",
+          "role": "environment",
+          "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/subway_entrance_1k.hdr",
+          "bytes": 1708791,
+          "md5": "da63842baa46e7234f39669751df853c",
+          "sha256": "6192b549164dcf56b021b05e719d0061315dbbaf38773256a7a25018b47492d3",
+          "dimensions": [
+            1024,
+            512
+          ],
+          "source_bytes": 1708791,
+          "source_md5": "da63842baa46e7234f39669751df853c",
+          "source_sha256": "6192b549164dcf56b021b05e719d0061315dbbaf38773256a7a25018b47492d3"
+        }
+      ],
+      "bytes": 1708791,
+      "source_bytes": 1708791
+    },
+    {
+      "id": "peeling_painted_wall",
+      "kind": "material",
+      "name": "Peeling Painted Wall",
+      "purpose": "Peeling off-white wall finish and exposed substrate",
+      "source": "https://polyhaven.com/a/peeling_painted_wall",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "authors": {
+        "Dimitrios Savva": "All"
+      },
+      "resolution": "1k",
+      "source_polycount": null,
+      "source_dimensions_mm": [
+        1800.0000715255737,
+        1800.0000715255737
+      ],
+      "files": [
+        {
+          "path": "materials/peeling_painted_wall/peeling_painted_wall_diff_1k.jpg",
+          "role": "albedo",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/peeling_painted_wall/peeling_painted_wall_diff_1k.jpg",
+          "bytes": 93011,
+          "md5": "164fd9df421fb47bc0b1710e13e62845",
+          "sha256": "8dd44af763c8c1ddd355777be5b8ee2a40c8213f69f0f61fa0a08d770cbb4810",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 440121,
+          "source_md5": "333a66d4fd60e0febd593f8e0d2d8978",
+          "source_sha256": "21455a65cae020ef32f79a00605eb706d7bbd2d47716485a94a3f6571460d254"
+        },
+        {
+          "path": "materials/peeling_painted_wall/peeling_painted_wall_nor_gl_1k.jpg",
+          "role": "normal_gl",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/peeling_painted_wall/peeling_painted_wall_nor_gl_1k.jpg",
+          "bytes": 588123,
+          "md5": "7d6cc7b1101d65bc5e2d997c01311f0c",
+          "sha256": "ca509b117a0f8f84c06185cb4e067d1c6cc2062595f06be6ac09fc7d7915e2be",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 910482,
+          "source_md5": "e2b0b6c1c98a4ec87bb480e237c2cfce",
+          "source_sha256": "c1d15c30b089861dbc2995492ec77cd64f530a35bb340879fe0dc86ec3bb9b5c"
+        },
+        {
+          "path": "materials/peeling_painted_wall/peeling_painted_wall_arm_1k.jpg",
+          "role": "ao_roughness_metalness",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/peeling_painted_wall/peeling_painted_wall_arm_1k.jpg",
+          "bytes": 487888,
+          "md5": "d395aba83bee6eeb5fea5005359766c2",
+          "sha256": "b69fce990245fc67106734a4668373f882c7b3640af53df937f0e99c5361749b",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 783136,
+          "source_md5": "23fde88ccb15792c65eab33295ec7433",
+          "source_sha256": "17dd49cdda749812b781766cddad870cacfe50ad69e6be30d87ac139b8a3d26b"
+        }
+      ],
+      "channel_mapping": {
+        "arm": {
+          "R": "ambientOcclusion",
+          "G": "roughness",
+          "B": "metalness"
+        }
+      },
+      "color_space": {
+        "albedo": "sRGB",
+        "normal_gl": "linear data",
+        "ao_roughness_metalness": "linear data"
+      },
+      "bytes": 1169022,
+      "source_bytes": 2133739
+    },
+    {
+      "id": "blue_floor_tiles_01",
+      "kind": "material",
+      "name": "Blue Floor Tiles 01",
+      "purpose": "Weathered blue ceramic for the dry fountain",
+      "source": "https://polyhaven.com/a/blue_floor_tiles_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "authors": {
+        "Rob Tuytel": "All"
+      },
+      "resolution": "1k",
+      "source_polycount": null,
+      "source_dimensions_mm": [
+        2000,
+        2000.0009536743164
+      ],
+      "files": [
+        {
+          "path": "materials/blue_floor_tiles_01/blue_floor_tiles_01_diff_1k.jpg",
+          "role": "albedo",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/blue_floor_tiles_01/blue_floor_tiles_01_diff_1k.jpg",
+          "bytes": 273903,
+          "md5": "ccdb0904d0d4e1b2223ef952436f7b67",
+          "sha256": "f7819a48daf8d0a3f6b3e70276b1c8147feba49ae84fb0dce9017e7c42d13dea",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 583318,
+          "source_md5": "f73a9f0064c1844b20a28981b6ca9e6c",
+          "source_sha256": "aed68dd650f97d0f98220e40524dceac34cc259f712f224f099365f643610b58"
+        },
+        {
+          "path": "materials/blue_floor_tiles_01/blue_floor_tiles_01_nor_gl_1k.jpg",
+          "role": "normal_gl",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/blue_floor_tiles_01/blue_floor_tiles_01_nor_gl_1k.jpg",
+          "bytes": 707926,
+          "md5": "da86185a95e6e097c631ab50ca48c32e",
+          "sha256": "f8c7e639189bb69e0c0a99eeac462753d80a8b76243bf3a78982ccf204bf62c9",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 707926,
+          "source_md5": "da86185a95e6e097c631ab50ca48c32e",
+          "source_sha256": "f8c7e639189bb69e0c0a99eeac462753d80a8b76243bf3a78982ccf204bf62c9"
+        },
+        {
+          "path": "materials/blue_floor_tiles_01/blue_floor_tiles_01_arm_1k.jpg",
+          "role": "ao_roughness_metalness",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/blue_floor_tiles_01/blue_floor_tiles_01_arm_1k.jpg",
+          "bytes": 164512,
+          "md5": "509dcce9131c64f47211a416b77056a9",
+          "sha256": "96717da9138a140f9ca43c2d9f4b2a5cbd8a88fa1ce90622e2b57c3437b64098",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 164512,
+          "source_md5": "509dcce9131c64f47211a416b77056a9",
+          "source_sha256": "96717da9138a140f9ca43c2d9f4b2a5cbd8a88fa1ce90622e2b57c3437b64098"
+        }
+      ],
+      "channel_mapping": {
+        "arm": {
+          "R": "ambientOcclusion",
+          "G": "roughness",
+          "B": "metalness"
+        }
+      },
+      "color_space": {
+        "albedo": "sRGB",
+        "normal_gl": "linear data",
+        "ao_roughness_metalness": "linear data"
+      },
+      "bytes": 1146341,
+      "source_bytes": 1455756
+    },
+    {
+      "id": "floor_tiles_06",
+      "kind": "material",
+      "name": "Floor Tiles 06",
+      "purpose": "Muted stone tile pattern for the atrium",
+      "source": "https://polyhaven.com/a/floor_tiles_06",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "authors": {
+        "Rob Tuytel": "All"
+      },
+      "resolution": "1k",
+      "source_polycount": null,
+      "source_dimensions_mm": [
+        3000,
+        3000
+      ],
+      "files": [
+        {
+          "path": "materials/floor_tiles_06/floor_tiles_06_diff_1k.jpg",
+          "role": "albedo",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/floor_tiles_06/floor_tiles_06_diff_1k.jpg",
+          "bytes": 169825,
+          "md5": "4b622317d9b1a1eb2c12877374306ec0",
+          "sha256": "91f919d8db8099d4f458558657f0c56f0ed4827f38b57ac3d9fae51c02560778",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 356257,
+          "source_md5": "a911ad8dc31e4f49a7cf782a114f7aa6",
+          "source_sha256": "ac159ca6072e30dd9d5c65e2d6eae7bb55a7dc9f06e6d141e9119390563511c2"
+        },
+        {
+          "path": "materials/floor_tiles_06/floor_tiles_06_nor_gl_1k.jpg",
+          "role": "normal_gl",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/floor_tiles_06/floor_tiles_06_nor_gl_1k.jpg",
+          "bytes": 121299,
+          "md5": "6089f05b33713ae6758d8301739fbc94",
+          "sha256": "efaff964d5688dd52ea3b876d5dac63ffee76d8d7270e30c11c81095246d5fdd",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 121299,
+          "source_md5": "6089f05b33713ae6758d8301739fbc94",
+          "source_sha256": "efaff964d5688dd52ea3b876d5dac63ffee76d8d7270e30c11c81095246d5fdd"
+        },
+        {
+          "path": "materials/floor_tiles_06/floor_tiles_06_arm_1k.jpg",
+          "role": "ao_roughness_metalness",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/floor_tiles_06/floor_tiles_06_arm_1k.jpg",
+          "bytes": 54871,
+          "md5": "313293cb07aca1d9c9c4cce85eeb794e",
+          "sha256": "c2f22a181363d4b64fbdbc57c65492eaeac1d09a761b1cbc00dfd4dfc72b003d",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "source_bytes": 54871,
+          "source_md5": "313293cb07aca1d9c9c4cce85eeb794e",
+          "source_sha256": "c2f22a181363d4b64fbdbc57c65492eaeac1d09a761b1cbc00dfd4dfc72b003d"
+        }
+      ],
+      "channel_mapping": {
+        "arm": {
+          "R": "ambientOcclusion",
+          "G": "roughness",
+          "B": "metalness"
+        }
+      },
+      "color_space": {
+        "albedo": "sRGB",
+        "normal_gl": "linear data",
+        "ao_roughness_metalness": "linear data"
+      },
+      "bytes": 345995,
+      "source_bytes": 532427
+    }
+  ]
+}

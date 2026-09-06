@@ -1,0 +1,25 @@
+{
+  "name": "meridian-2004",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --test tests/movement.test.ts tests/experience.test.ts",
+    "test:browser": "playwright test"
+  },
+  "dependencies": {
+    "three": "0.185.1"
+  },
+  "devDependencies": {
+    "@types/three": "^0.185.0",
+    "typescript": "~5.9.3",
+    "vite": "8.2.2",
+    "@playwright/test": "1.63.0"
+  },
+  "engines": {
+    "node": "24.x"
+  }
+}

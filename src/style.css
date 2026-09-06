@@ -1,0 +1,51 @@
+:root{font-family:Arial,Helvetica,sans-serif;color:#e6e2d5;background:#202c2a;font-synthesis:none;color-scheme:dark}
+*{box-sizing:border-box}body{margin:0;overflow:hidden}button{font:inherit}button:focus-visible{outline:2px solid #dfbb78;outline-offset:5px}
+#scene{position:fixed;inset:0;width:100%;height:100%;display:block}
+#overlay{position:fixed;inset:0;display:flex;flex-direction:column;justify-content:space-between;padding:38px 5vw;background:linear-gradient(90deg,rgba(15,26,25,.96),rgba(15,26,25,.82) 38%,rgba(15,26,25,.12) 78%);transition:opacity .25s}
+#overlay[hidden], [hidden]{display:none!important}
+.masthead{display:flex;align-items:center;justify-content:space-between;gap:24px;font-size:10px;letter-spacing:.19em;text-transform:uppercase;color:#b1b7ac}
+.wordmark{display:flex;align-items:center;gap:12px;color:#e3dfce;font-size:12px;letter-spacing:.24em}.symbol{width:30px;height:30px;border:1px solid #c1bda7;border-radius:50%;position:relative}.symbol:before,.symbol:after{content:"";position:absolute;background:#c1bda7}.symbol:before{height:1px;width:40px;top:14px;left:-6px;transform:rotate(-35deg)}.symbol:after{height:36px;width:1px;left:14px;top:-4px}
+.intro{max-width:550px;padding:40px 0}.eyebrow{font-size:10px;letter-spacing:.22em;color:#c4a773;margin:0 0 22px;display:flex;align-items:center;gap:10px}.eyebrow:before{content:"";display:block;width:28px;height:1px;background:#c4a773}
+h1{font-family:Georgia,'Times New Roman',serif;font-weight:400;font-size:clamp(56px,7.4vw,108px);letter-spacing:-.065em;line-height:.95;margin:0 0 24px}h1 span{color:#b6bcac}
+.description{font-size:15px;line-height:1.85;color:#b3bcaf;max-width:360px;margin:0 0 32px}
+.primary{display:flex;align-items:center;justify-content:space-between;gap:60px;min-width:235px;border:0;background:#d9caa4;color:#1e2b27;padding:19px 23px;cursor:pointer;font-size:13px}.primary:hover{background:#ede0be}.primary:disabled{opacity:.5;cursor:wait}.arrow{font-size:21px}
+.secondary{background:none;border:0;border-bottom:1px solid #627268;padding:8px 0;color:#bec7b8;cursor:pointer;margin-top:15px;font-size:12px}
+.footer{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;border-top:1px solid #ffffff20;padding-top:19px}.controls{display:flex;gap:25px;font-size:10px;line-height:1.9;color:#939e93}.controls b{display:block;font-weight:400;color:#dedfd1;letter-spacing:.1em}.edition{text-align:right;font-size:10px;line-height:1.9;letter-spacing:.07em;color:#8d9b90}
+#hud{position:fixed;inset:0;pointer-events:none;padding:28px 32px;display:flex;justify-content:space-between;align-items:flex-start;text-shadow:0 1px 4px #000}.hud-brand{font-family:Georgia,serif;font-size:21px;letter-spacing:-.04em}.hud-brand small{display:block;font-family:Arial,sans-serif;font-size:9px;letter-spacing:.16em;margin-top:8px;color:#d0d0bb}.location{text-align:right;font-size:11px;letter-spacing:.08em}.location small{display:block;color:#cbcbb7;font-size:9px;margin-top:8px}.dot{position:absolute;left:50%;top:50%;width:3px;height:3px;background:#e4e5cd;border-radius:50%;opacity:.55}.hint{position:absolute;bottom:27px;left:32px;font-size:10px;letter-spacing:.08em;color:#d5d6c2}
+#status{font-size:12px;color:#d3b98c;line-height:1.6;max-width:400px;margin-top:16px}
+@media(max-width:640px){#overlay{padding:26px}.masthead>span{display:none}.intro{padding:25px 0}.footer{align-items:flex-start}.controls{gap:14px;flex-wrap:wrap}.edition{display:none}.description{font-size:13px}#hud{padding:20px}.hint{left:20px}}
+@media(max-height:570px){#overlay{padding:20px 4vw}.intro{padding:15px 0}h1{font-size:55px;margin-bottom:12px}.description{margin-bottom:14px}.eyebrow{margin-bottom:12px}.footer{padding-top:10px}}
+
+/* A fixed, subtle lens falloff. No animated grain or flashing. */
+#atmosphere{position:fixed;inset:0;pointer-events:none;background:radial-gradient(ellipse at 50% 46%,transparent 35%,rgba(16,23,22,.18) 100%);mix-blend-mode:multiply}
+.edition{color:#c1c7b7;text-shadow:0 1px 3px #15241e}
+.masthead{color:#c1c7b7}
+.intro{max-width:600px}
+h1{letter-spacing:-.06em}
+/* Reading and preference panels are native dialogs with keyboard focus containment. */
+.menu-actions{display:flex;gap:24px;align-items:center;flex-wrap:wrap}
+.secondary:disabled{opacity:.4;cursor:wait}
+dialog{color:#e6e2d5;background:#1c2b27;border:1px solid #68756b;padding:32px;width:min(460px,calc(100vw - 32px));max-height:calc(100dvh - 48px);overflow:auto;box-shadow:0 24px 100px #0008}
+dialog::backdrop{background:#07110ec9;backdrop-filter:blur(5px)}
+dialog h2{font:normal 32px/1.15 Georgia,serif;letter-spacing:-.035em;margin:0 0 18px}
+dialog .eyebrow{font-size:9px;line-height:1.7;letter-spacing:.1em;margin-bottom:16px}
+.panel-note{color:#adb9ac;font-size:12px;line-height:1.7;margin:12px 0 20px}
+.setting{display:block;font-size:13px;margin:24px 0 16px;line-height:1.6}.setting output{float:right;color:#dacaa5;font-variant-numeric:tabular-nums}
+.setting input{display:block;width:100%;margin:14px 0 0;accent-color:#d9caa4;cursor:pointer}
+.check{display:flex;align-items:center;gap:12px;font-size:13px;line-height:1.6;margin:17px 0;cursor:pointer}.check input{width:17px;height:17px;accent-color:#d9caa4;margin:0}
+input:focus-visible{outline:2px solid #dfbb78;outline-offset:5px}
+#audio-note{font-size:12px;color:#dacaa5;line-height:1.7}
+#reading-dialog{width:min(580px,calc(100vw - 32px));background:#dcd4be;color:#29352d;border-color:#b2aa93;padding:42px}
+#reading-dialog .eyebrow{color:#63705c}#reading-dialog .eyebrow:before{background:#7b886f}
+#reading-body{font:17px/1.8 Georgia,serif;margin:24px 0 30px}#reading-body p{margin:0 0 15px}
+#reading-dialog .primary{background:#283d33;color:#ece5ce}#reading-dialog .primary:hover{background:#375344}
+#reading-dialog .panel-note{color:#64705e;margin-bottom:0}
+#interaction-prompt{position:absolute;top:57%;left:50%;transform:translateX(-50%);display:flex;align-items:center;gap:12px;background:#13231edb;border:1px solid #c7c3a94a;padding:12px 17px;font-size:12px;white-space:nowrap;letter-spacing:.03em}
+kbd{font:12px Arial,sans-serif;border:1px solid #cec8b0;padding:4px 6px;color:#e7dabc}
+#feedback{position:absolute;bottom:80px;left:50%;transform:translateX(-50%);max-width:calc(100vw - 40px);width:max-content;background:#12231de8;border-left:2px solid #c8b284;padding:14px 18px;color:#dddcc9;font-size:13px;line-height:1.7}
+@media(max-height:700px){#overlay{padding-top:22px;padding-bottom:22px}.intro{padding:18px 0}h1{font-size:clamp(55px,7vw,78px);margin-bottom:16px}.description{margin-bottom:20px}.eyebrow{margin-bottom:16px}.footer{padding-top:12px}}
+@media(max-width:640px){dialog,#reading-dialog{padding:25px}.hint{font-size:9px;right:15px;line-height:1.7}.controls{gap:16px}#reading-body{font-size:16px}.menu-actions{gap:17px}}
+/* Static headings receive initial dialog focus without looking like text fields. */
+dialog h2[tabindex="-1"]:focus{outline:none}
+
+.setting select{display:block;width:100%;margin-top:10px;padding:10px 12px;background:#1b1d1b;color:#e6decc;border:1px solid #5d6056;border-radius:3px;font:inherit;cursor:pointer}

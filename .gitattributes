@@ -1,0 +1,11 @@
+* text=auto eol=lf
+*.ts text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.gltf text eol=lf
+*.jpg binary
+*.png binary
+*.bin binary
+*.hdr binary
+/public/assets/1k/** binary
+/public/assets/1k/manifest.json text eol=lf

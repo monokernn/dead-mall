@@ -1,0 +1,16 @@
+{
+  "browser": "Microsoft Edge / SwiftShader",
+  "errors": [],
+  "audio": {
+    "state": "running",
+    "active": true,
+    "muted": false,
+    "music": true,
+    "volume": 0.45,
+    "rms": 0.012537823294458933,
+    "steps": 0,
+    "surface": "tile",
+    "effect": ""
+  },
+  "paused": "suspended"
+}

@@ -1,0 +1,9 @@
+{
+  "browser": "Microsoft Edge / SwiftShader",
+  "origin": "http://127.0.0.1:5195",
+  "entry": true,
+  "pause": true,
+  "developmentHooks": "undefined",
+  "errors": [],
+  "failed": []
+}

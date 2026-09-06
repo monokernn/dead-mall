@@ -1,0 +1,24 @@
+{
+  "browser": "Edge headless / SwiftShader (not a hardware FPS benchmark)",
+  "idleRedraws": 0,
+  "walk": 1.8,
+  "sprint": 4.5,
+  "lookRadiansPerPixel": 0.0016,
+  "balanced": {
+    "calls": 622,
+    "triangles": 567951,
+    "width": 1440,
+    "height": 900,
+    "occlusion": true,
+    "reflections": true
+  },
+  "performance": {
+    "calls": 236,
+    "triangles": 190012,
+    "width": 960,
+    "height": 600,
+    "occlusion": false,
+    "reflections": false
+  },
+  "errors": []
+}
